@@ -102,30 +102,33 @@
             // 
             // buttonDel
             // 
+            this.buttonDel.BackColor = System.Drawing.Color.Salmon;
             this.buttonDel.Location = new System.Drawing.Point(799, 329);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(92, 27);
             this.buttonDel.TabIndex = 19;
             this.buttonDel.Text = "Удалить";
-            this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.UseVisualStyleBackColor = false;
             // 
             // buttonEdit
             // 
+            this.buttonEdit.BackColor = System.Drawing.Color.Salmon;
             this.buttonEdit.Location = new System.Drawing.Point(689, 329);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(92, 27);
             this.buttonEdit.TabIndex = 18;
             this.buttonEdit.Text = "Изменить";
-            this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.UseVisualStyleBackColor = false;
             // 
             // buttonAdd
             // 
+            this.buttonAdd.BackColor = System.Drawing.Color.Salmon;
             this.buttonAdd.Location = new System.Drawing.Point(571, 329);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(92, 27);
             this.buttonAdd.TabIndex = 17;
             this.buttonAdd.Text = "Создать";
-            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // listViewTeach
@@ -229,6 +232,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.CadetBlue;
             this.ClientSize = new System.Drawing.Size(903, 368);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
